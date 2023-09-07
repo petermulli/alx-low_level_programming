@@ -1,7 +1,11 @@
 #!/bin/bash
 #include <studio.h>
-int main (){
-	char myString[] = "\"Programming is like building a multilingual puzzle \n"
-		puts ();
-	return 0;
+/** 
+ * main-entry point
+ *
+ * return Always 0 (successful)
+ */
+int main (void){
+	puts ("\"Programming is like builting a multilingual puzzle");
+	return (0);
 }
