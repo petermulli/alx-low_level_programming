@@ -1,9 +1,9 @@
 #!/bin/bash
 /**
  *
- * main-point of entry
+ *main- Entry point
  *
- * return 0 (success)
+ *return: always 0 (success)
  *
  */
 int main(void){
