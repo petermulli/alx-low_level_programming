@@ -1,9 +1,9 @@
 #!/bin/bash
 #include <studio.h>
-/** 
- * main-entry point
+/**
+ *main-Entry point
  *
- * return Always 0 (successful)
+ *Return: Always 0(Success)
  */
 int main (void){
 	puts ("\"Programming is like builting a multilingual puzzle");
