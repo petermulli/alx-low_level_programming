@@ -9,15 +9,7 @@
  */
 int main(void)
 {
-	char u = 'A';
 	char l = 'a';
-
-	while (u <= 'Z')
-	{
-		putchar(u);
-		u++;
-	}
-
 	while (l <= 'z')
 	{
 		putchar(l);
