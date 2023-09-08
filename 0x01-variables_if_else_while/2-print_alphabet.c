@@ -5,8 +5,6 @@
 /**
  * main - Entry point
  *
- * Description: Prints lowercase alphabets from 'a' to 'z' followed by a newline.
- *
  * Return: Always 0 (Success)
  */
 int main(void)
