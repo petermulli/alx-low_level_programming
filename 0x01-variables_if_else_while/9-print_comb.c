@@ -3,9 +3,6 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible combinations of single-digit numbers
- *              separated by a comma and space. Numbers are printed in ascending order.
- *
  * Return: Always 0 (Success)
  */
 int main(void)
