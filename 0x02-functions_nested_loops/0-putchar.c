@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always SUCCESS (0)
  */
 int main(void)
 {
-    printf("_putchar\n");
-    return (0);
+    write(STDOUT_FILENO, "_putchar\n", 9);
+    return (SUCCESS);
 }
 
