@@ -1,14 +1,20 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Return: Always SUCCESS (0)
+ * main-putchar function
+ *Return: returns 0
  */
 int main(void)
 {
-    write(STDOUT_FILENO, "_putchar\n", 9);
-    return (SUCCESS);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
+return (0);
+}
