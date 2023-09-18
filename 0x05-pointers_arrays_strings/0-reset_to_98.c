@@ -1,27 +1,12 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * updateValue - Update the value of an integer through a pointer.
- * @ptr: Pointer to an integer whose value needs to be updated.
- *
- * This function updates the value of the integer pointed to by 'ptr' to 98.
+ * reset_to_98 - a function that takes a pointer to an int as parameter
+ * and updates the value it points to to 98
+ * @n: input
+ * Return: n
  */
-void updateValue(int *ptr)
+void reset_to_98(int *n)
 {
-	*ptr = 98; /* Update the value pointed to by 'ptr' to 98 */
-}
-
-int main(void)
-{
-	int num = 42;
-
-	printf("Before: %d\n", num);
-
-	/* Call the function to update the value */
-	updateValue(&num);
-
-	printf("After: %d\n", num);
-
-	return (0);
+	*n = 98;
 }
 
